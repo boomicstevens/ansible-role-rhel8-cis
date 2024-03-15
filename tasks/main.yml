@@ -31698,7 +31698,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv6_conf_all_accept_ra | bool
+  - not sysctl_net_ipv6_conf_all_accept_ra | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-81006-9
@@ -31727,7 +31727,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv6_conf_all_accept_ra | bool
+  - not sysctl_net_ipv6_conf_all_accept_ra | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-81006-9
@@ -31790,7 +31790,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv6_conf_all_accept_redirects | bool
+  - not sysctl_net_ipv6_conf_all_accept_redirects | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-81009-3
@@ -31821,7 +31821,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv6_conf_all_accept_redirects | bool
+  - not sysctl_net_ipv6_conf_all_accept_redirects | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-81009-3
@@ -31888,7 +31888,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv6_conf_all_accept_source_route | bool
+  - not sysctl_net_ipv6_conf_all_accept_source_route | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-81013-5
@@ -31917,7 +31917,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv6_conf_all_accept_source_route | bool
+  - not sysctl_net_ipv6_conf_all_accept_source_route | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-81013-5
@@ -31947,7 +31947,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv6_conf_all_accept_source_route | bool
+  - not sysctl_net_ipv6_conf_all_accept_source_route | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-81013-5
@@ -32010,7 +32010,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv6_conf_all_forwarding | bool
+  - not sysctl_net_ipv6_conf_all_forwarding | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-82863-2
@@ -32075,7 +32075,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv6_conf_default_accept_ra | bool
+  - not sysctl_net_ipv6_conf_default_accept_ra | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-81007-7
@@ -32104,7 +32104,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv6_conf_default_accept_ra | bool
+  - not sysctl_net_ipv6_conf_default_accept_ra | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-81007-7
@@ -32167,7 +32167,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv6_conf_default_accept_redirects | bool
+  - not sysctl_net_ipv6_conf_default_accept_redirects | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-81010-1
@@ -32196,7 +32196,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv6_conf_default_accept_redirects | bool
+  - not sysctl_net_ipv6_conf_default_accept_redirects | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-81010-1
@@ -32259,7 +32259,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv6_conf_default_accept_source_route | bool
+  - not sysctl_net_ipv6_conf_default_accept_source_route | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-81015-0
@@ -32292,7 +32292,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv6_conf_default_accept_source_route | bool
+  - not sysctl_net_ipv6_conf_default_accept_source_route | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-81015-0
@@ -32363,7 +32363,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_conf_all_accept_redirects | bool
+  - not sysctl_net_ipv4_conf_all_accept_redirects | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-80917-8
@@ -32394,7 +32394,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_conf_all_accept_redirects | bool
+  - not sysctl_net_ipv4_conf_all_accept_redirects | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-80917-8
@@ -32461,7 +32461,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_conf_all_accept_source_route | bool
+  - not sysctl_net_ipv4_conf_all_accept_source_route | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-81011-9
@@ -32492,7 +32492,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_conf_all_accept_source_route | bool
+  - not sysctl_net_ipv4_conf_all_accept_source_route | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-81011-9
@@ -32557,7 +32557,7 @@
   - low_complexity | bool
   - medium_disruption | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_conf_all_log_martians | bool
+  - not sysctl_net_ipv4_conf_all_log_martians | bool
   - unknown_severity | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
@@ -32584,7 +32584,7 @@
   - low_complexity | bool
   - medium_disruption | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_conf_all_log_martians | bool
+  - not sysctl_net_ipv4_conf_all_log_martians | bool
   - unknown_severity | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
@@ -32645,7 +32645,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_conf_all_rp_filter | bool
+  - not sysctl_net_ipv4_conf_all_rp_filter | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-81021-8
@@ -32677,7 +32677,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_conf_all_rp_filter | bool
+  - not sysctl_net_ipv4_conf_all_rp_filter | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-81021-8
@@ -32745,7 +32745,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_conf_all_secure_redirects | bool
+  - not sysctl_net_ipv4_conf_all_secure_redirects | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-81016-8
@@ -32775,7 +32775,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_conf_all_secure_redirects | bool
+  - not sysctl_net_ipv4_conf_all_secure_redirects | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-81016-8
@@ -32841,7 +32841,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_conf_default_accept_redirects | bool
+  - not sysctl_net_ipv4_conf_default_accept_redirects | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-80919-4
@@ -32874,7 +32874,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_conf_default_accept_redirects | bool
+  - not sysctl_net_ipv4_conf_default_accept_redirects | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-80919-4
@@ -32945,7 +32945,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_conf_default_accept_source_route | bool
+  - not sysctl_net_ipv4_conf_default_accept_source_route | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-80920-2
@@ -32976,7 +32976,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_conf_default_accept_source_route | bool
+  - not sysctl_net_ipv4_conf_default_accept_source_route | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-80920-2
@@ -33041,7 +33041,7 @@
   - low_complexity | bool
   - medium_disruption | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_conf_default_log_martians | bool
+  - not sysctl_net_ipv4_conf_default_log_martians | bool
   - unknown_severity | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
@@ -33068,7 +33068,7 @@
   - low_complexity | bool
   - medium_disruption | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_conf_default_log_martians | bool
+  - not sysctl_net_ipv4_conf_default_log_martians | bool
   - unknown_severity | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
@@ -33128,7 +33128,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_conf_default_rp_filter | bool
+  - not sysctl_net_ipv4_conf_default_rp_filter | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-81022-6
@@ -33156,7 +33156,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_conf_default_rp_filter | bool
+  - not sysctl_net_ipv4_conf_default_rp_filter | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-81022-6
@@ -33217,7 +33217,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_conf_default_secure_redirects | bool
+  - not sysctl_net_ipv4_conf_default_secure_redirects | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-81017-6
@@ -33245,7 +33245,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_conf_default_secure_redirects | bool
+  - not sysctl_net_ipv4_conf_default_secure_redirects | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-81017-6
@@ -33307,7 +33307,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_icmp_echo_ignore_broadcasts | bool
+  - not sysctl_net_ipv4_icmp_echo_ignore_broadcasts | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-80922-8
@@ -33339,7 +33339,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_icmp_echo_ignore_broadcasts | bool
+  - not sysctl_net_ipv4_icmp_echo_ignore_broadcasts | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-80922-8
@@ -33406,7 +33406,7 @@
   - low_complexity | bool
   - medium_disruption | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_icmp_ignore_bogus_error_responses | bool
+  - not sysctl_net_ipv4_icmp_ignore_bogus_error_responses | bool
   - unknown_severity | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
@@ -33435,7 +33435,7 @@
   - low_complexity | bool
   - medium_disruption | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_icmp_ignore_bogus_error_responses | bool
+  - not sysctl_net_ipv4_icmp_ignore_bogus_error_responses | bool
   - unknown_severity | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
@@ -33499,7 +33499,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_tcp_syncookies | bool
+  - not sysctl_net_ipv4_tcp_syncookies | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-80923-6
@@ -33532,7 +33532,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_tcp_syncookies | bool
+  - not sysctl_net_ipv4_tcp_syncookies | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-80923-6
@@ -33604,7 +33604,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_conf_all_send_redirects | bool
+  - not sysctl_net_ipv4_conf_all_send_redirects | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-80918-6
@@ -33637,7 +33637,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_conf_all_send_redirects | bool
+  - not sysctl_net_ipv4_conf_all_send_redirects | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-80918-6
@@ -33708,7 +33708,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_conf_default_send_redirects | bool
+  - not sysctl_net_ipv4_conf_default_send_redirects | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-80921-0
@@ -33741,7 +33741,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_conf_default_send_redirects | bool
+  - not sysctl_net_ipv4_conf_default_send_redirects | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-80921-0
@@ -33811,7 +33811,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_ip_forward | bool
+  - not sysctl_net_ipv4_ip_forward | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-81024-2
@@ -33843,7 +33843,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_net_ipv4_ip_forward | bool
+  - not sysctl_net_ipv4_ip_forward | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-81024-2
@@ -40531,7 +40531,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_kernel_yama_ptrace_scope | bool
+  - not sysctl_kernel_yama_ptrace_scope | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-80953-3
@@ -40557,7 +40557,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_kernel_yama_ptrace_scope | bool
+  - not sysctl_kernel_yama_ptrace_scope | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-80953-3
@@ -40756,7 +40756,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_kernel_randomize_va_space | bool
+  - not sysctl_kernel_randomize_va_space | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-80916-0
@@ -40787,7 +40787,7 @@
   - medium_disruption | bool
   - medium_severity | bool
   - reboot_required | bool
-  - sysctl_kernel_randomize_va_space | bool
+  - not sysctl_kernel_randomize_va_space | bool
   - ansible_virtualization_type not in ["docker", "lxc", "openvz", "podman", "container"]
   tags:
   - CCE-80916-0
